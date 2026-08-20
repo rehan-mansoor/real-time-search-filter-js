@@ -1,0 +1,52 @@
+body {
+  background-color: #222;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.container input {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 20%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cards {
+  overflow: hidden;
+  height: 400px;
+  width: 250px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.cards img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+}
